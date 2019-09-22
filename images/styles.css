@@ -1,0 +1,12 @@
+
+
+#self {
+    width: 175px;
+    position:right;
+    top: 10px;
+  left:10px;
+  border: 2px black solid;
+     border-radius: 3px;
+ box-shadow: 3px 3px 3px black;
+
+}
