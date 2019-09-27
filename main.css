@@ -5,6 +5,7 @@
  box-shadow: 3px 3px 3px black;
 }
 #mainbody{
+    font-family: 'Monda', sans-serif;
     border-radius: 25px;
 max-width: 960px;
 margin: 0 auto;
@@ -15,7 +16,7 @@ margin: 0 auto;
     background-color: lightblue;
     text-align: center; 
 padding: 10px;
-font-family:'Abril Fatface';
+font-family: 'Kanit', sans-serif;
   font-size: 2.25em;
   line-height: 1.2em;
 }
