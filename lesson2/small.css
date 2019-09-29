@@ -1,5 +1,8 @@
 body {
-font-size: 16px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+font-size: 15px;
 font-family: 'Monda', sans-serif;
 max-width: 975px;
 }
@@ -19,16 +22,23 @@ ul {
     font-size: 1em;
     line-height: .85em;
 }
+
 main {
+  
   max-width: 975px;
   margin: 0 auto;
   display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
+main section {
+  margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+}
 picture img {
   height: auto;
-  padding: 5px;
-  border: 1px;
+ 
+ 
   width: 100%;
 }
