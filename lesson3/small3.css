@@ -21,7 +21,7 @@ body {
 header, nav, main, footer {
     max-width: 921px;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 nav {
