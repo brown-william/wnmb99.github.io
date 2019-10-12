@@ -1,0 +1,78 @@
+body {
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+    line-height: 1.5rem;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    padding: 16px;
+}
+
+header, footer {
+    background-color: #00A8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    padding: 15px;
+}
+.motto {
+    letter-spacing: 1pt;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+nav {
+    background-color: #00171f;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    border-top:1px solid;
+}
+.primNav li:first-child {
+display: block;
+}
+.content {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #00171f;
+    text-align: left;
+    color: white;
+    border: 1px solid rgb(3, 2, 14)
+    
+    
+}
+
+
+
+nav ul li.active a{
+    background-color: #00A8E8;
+    margin: 0 auto;
+
+}
+nav ul li a:hover {
+    background-color: rgba(42, 45, 238, 0.4);
+}
+
