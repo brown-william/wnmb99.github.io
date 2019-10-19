@@ -29,19 +29,25 @@ nav {
     font-family: 'Libre Baskerville', serif;
 }
 
-nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: white;
-}
+
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 
+}
+
+
+
+
+
+
+.primNav li:first-child {
+display: block;
+}
+.primNav li {
+    display: none;
 }
 
 nav ul li a {
@@ -51,9 +57,11 @@ nav ul li a {
     color: white;
     border-top:1px solid;
 }
-.primNav li:first-child {
-display: block;
+
+.responsive li {
+    display: block;
 }
+
 .content {
     padding: 1rem;
     margin-top: 1rem;

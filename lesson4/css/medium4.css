@@ -22,6 +22,11 @@
         display: none;
 
     }
+    .primNav li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
 }
 
 

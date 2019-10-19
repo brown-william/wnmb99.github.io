@@ -1,4 +1,4 @@
 function menuToggle() {
     
-    document.getElementByClassName("primNav")[0].classList.toggle("responsive");
+    document.getElementsByClassName("primNav")[0].classList.toggle("responsive");
 }
