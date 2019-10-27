@@ -7,6 +7,15 @@ body {
     border: 1px solid #00A8E8;
 }
 
+main figure.heroPhoto {
+    
+    width: 50%;
+}
+main figure.herPhoto img {
+    
+    height: 100%;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Libre Baskerville', serif;
     padding: 16px;
@@ -94,18 +103,19 @@ nav ul li a:hover {
 
 
 .hero {
-    
+    justify-content: left;
     position: relative;
     padding: 0;
 }
 
 .statistics {
     position: absolute;
-    top: 15px;
-    left: 20px;
+    top: 20px;
+    left: 60px;
     background: radial-gradient(white, lightblue);
     padding: .20rem;
     opacity: .7;
+    
 }
 
 .forecast {

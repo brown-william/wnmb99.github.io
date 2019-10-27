@@ -1,0 +1,79 @@
+
+@media only screen and (min-width: 32.5em){
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+  
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px;
+        padding: .8rem 1rem;
+
+    }
+    .primNav {
+        display: flex;
+
+    }
+    .primNav li:first-child {
+        display: none;
+
+    }
+    .primNav li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    
+    .forecast {
+        display: block;
+        background-color: white;
+        margin: 12px 0;
+        padding: 7px 7px;
+        border-top: 1px solid #00A8E8;
+        border-bottom: 1px solid #00A8E8;
+    }
+    .fiveday{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+    }
+    .day {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 12px 24px;
+        background-color: #00A8E8;
+        padding: 25px;
+        border-radius: 12px;
+        text-align: center;
+        
+    }
+    #city {
+        margin: 5px auto;
+        padding: 30px;
+        display: block;
+        text-align: left;
+    }
+    .contact {
+        border-top: 1px solid #00A8E8;
+        margin: 12px 0 0 0;
+    }
+    .contact_img {
+        float: right;
+        margin-top: 40px;
+    }
+    .address {
+        padding: 25px;
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+
+
