@@ -1,0 +1,28 @@
+header, footer {
+
+background-color: cornflowerblue;
+color: white;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto;
+
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    background-color: black;
+}
+
+picture {
+ display: grid;
+ justify-content: center;
+ margin: 25px auto;
+ 
+
+
+
+
+}
