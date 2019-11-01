@@ -21,8 +21,11 @@ picture {
  justify-content: center;
  margin: 25px auto;
  
+}
+picture img {
 
-
-
-
+    filter: blur(0em);
+}
+picture img[data-src] {
+    filter: blur(0.2em)
 }
