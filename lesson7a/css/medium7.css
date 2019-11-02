@@ -1,0 +1,33 @@
+
+@media only screen and (min-width: 32.5em){
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+  
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px;
+        padding: .8rem 1rem;
+
+    }
+    .primNav {
+        display: flex;
+
+    }
+    .primNav li:first-child {
+        display: none;
+
+    }
+    .primNav li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

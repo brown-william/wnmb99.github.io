@@ -1,0 +1,16 @@
+@media only screen and (min-width: 65em) {
+    nav ul {
+        display: flex;
+        justify-content: space-around
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}

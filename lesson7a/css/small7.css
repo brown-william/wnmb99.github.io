@@ -1,20 +1,13 @@
 body {
     font-size: 20px;
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 1320px;
     line-height: 1.5rem;
     height: 100%;
     border: 1px solid #00A8E8;
 }
 
-main figure.heroPhoto {
-    
-    width: 50%;
-}
-main figure.herPhoto img {
-    
-    height: 100%;
-}
+
 
 h1, h2, h3, h4, h5 {
     font-family: 'Libre Baskerville', serif;
@@ -41,23 +34,7 @@ header, footer {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.content {
-    padding: 1rem;
-    margin-top: 1rem;
-    background-color: #00171f;
-    text-align: left;
-    color: white;
-    border: 1px solid rgb(3, 2, 14)
-    
-    
-}
 
-.banner1 {
-    background-color: yellow;
-    margin: 0;
-    padding: 18px;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
 
 nav {
     background-color: #00171f;
@@ -92,12 +69,8 @@ nav ul li a {
     display: block;
 }
 
-
-
-
-
 nav ul li.active a{
-    background-color: #00A8E8;
+    background-color: rgb(232, 112, 0);
     margin: 0 auto;
 
 }
@@ -105,43 +78,16 @@ nav ul li a:hover {
     background-color: rgba(42, 45, 238, 0.4);
 }
 
+figure {
+    display: grid;
+    padding: 20px;
+    margin: 0 auto;
 
-.hero {
-    justify-content: left;
-    position: relative;
-    padding: 0;
-}
-
-.statistics {
-    position: absolute;
-    top: 20px;
-    left: 60px;
-    background: radial-gradient(white, lightblue);
-    padding: .20rem;
-    opacity: .7;
-    
 }
 
-.forecast {
-    display: none;
+img[data-src] {
+    filter: blur(0.5em);
 }
-#city {
-    
-    display: flex;
-    justify-items: flex-start;
-    flex-direction: column;
-    margin: 12px 0;
-    padding: 12px;
-    max-width: 95%;
-    text-align: left;
-}
-#city.h4 {
-    text-align: left;
-}
-
-.pic {
-    order: 2;
-    float: right;
-    max-width: 100%;
-    margin: 12px auto;
+figcaption {
+    text-align: center;
 }
