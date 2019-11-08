@@ -22,10 +22,10 @@ td, th {
     
 }
 tbody>tr {
-    background-color: #e7ffed;
+    background-color: #e7f0ed;
 }
 tbody>tr:nth-child(odd) {
-    background-color: #e7f0ed;
+    background-color: #e7ffed;
 }
 thead>tr>th {
     background-color: #7fb9c2;
