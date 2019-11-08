@@ -2,3 +2,47 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+table {
+    border: 2px solid grey;
+    font-size: 2em;
+    
+    
+}
+
+td, th, tfoot, thead {
+    padding: 10px;
+    
+}
+
+td, th {
+    
+    border: 1px solid grey;
+    text-align: center;
+    
+}
+tbody>tr {
+    background-color: #e7ffed;
+}
+tbody>tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+thead>tr>th {
+    background-color: #7fb9c2;
+}
+tbody>tr>th {
+    background-color: #628ca6;
+    color: white;
+}
+
+
+tfoot {
+    font-size: .75em;
+    background-color: #7fb9c2;
+
+}
+#goal {
+    background-color: #7fb9c2;
+}
+
+
