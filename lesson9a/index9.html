@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Home Page Assignment by Nate Brown for CIT 230 : Web Frontend Development, Brigham Young University Idaho">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/small4.css" type="text/css">
-    <link rel="stylesheet" href="css/medium4.css" type="text/css">
-    <link rel="stylesheet" href="css/large4.css" type="text/css">
+    <title>Weather Home Page</title>
+    <link rel="stylesheet" href="css/normaliz.css" type="text/css">
+    <link rel="stylesheet" href="css/small9.css" type="text/css">
+    <link rel="stylesheet" href="css/medium9.css" type="text/css">
+    <link rel="stylesheet" href="css/large9.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|PT+Sans+Narrow&display=swap" rel="stylesheet">
-    <title>Preston Idaho/ CIT 230</title>
 </head>
 <body>
     <header>
@@ -18,27 +19,25 @@
         <h1>Idaho Weather Reporter</h1>
         <div class="motto">When knowing matters!</div>
         </section>
-        </header>
+    </header>
         <nav>
         
             <ul class="primNav">
                 <li><a href="#" onclick="menuToggle()">&#9776; Menu</a></li>
-                <li><a href="/lesson9a/index9.html">Home</a></li>
-                <li class="active"><a href="prestonL4.html">Preston</a></li>
+                <li class="active"><a href="/lesson9a/index9.html">Home</a></li>
+                <li><a href="../lesson6/prestonL6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="/lesson8a/stormcenter.html">Storm Center</a></li>
                 <li><a href="/lesson7a/gallery7.html">Gallery</a></li>
             </ul>
         </nav>
-    
-    <hr>
     <main>
-        <section class="content">Hero / Weather</section>
-        <section class="content">Five Day Forecast</section>
-        <section class="content">Article</section>
-        <section class="content">Contact Information</section>
+        <h2 class="townInfo">Town Information</h2>
+        <div class="cards"></div>
     </main>
+    
+   
     <footer>
        
             &copy; | Nate Brown | <a href="https://byui.edu/online">BYUI Online Learning</a>
@@ -46,8 +45,11 @@
           
 </footer>
 
-<script src="js/currentdate.js"> </script>
 
-<script src="js/menuToggle.js"> </script>
+
+
+    <script src="js/menuToggle.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/json.js"></script>
 </body>
 </html>
