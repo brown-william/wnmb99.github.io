@@ -26,4 +26,32 @@
 		display: block;
 		flex: 1 1 100%;
     }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+    }
+    
+    main section {
+        
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 40px 20px;
+        
+    }
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    section div {
+        
+        margin: auto;
+    }
+    main img {
+
+    width: 45%;
+    }
 }

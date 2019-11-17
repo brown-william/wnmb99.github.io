@@ -6,4 +6,18 @@
     nav ul li a {
         padding: .6rem 1rem;
     }
+    .cards {
+    
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        width: auto;
+        height: auto;
+        margin: 5px;
+    }
+    .cards img {
+        width: 70%;
+    }
+    main section {
+        display: block;
+    }
 }

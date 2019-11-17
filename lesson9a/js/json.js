@@ -5,11 +5,11 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); 
+    
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
       if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') {
-        let town = ["Preston", "Soda Springs", "Fish Haven"];
+        
         let card = document.createElement('section');
         let heading = document.createElement('h2');
         heading.textContent = towns[i].name;
@@ -21,13 +21,23 @@ fetch(requestURL)
         card.appendChild(motto);
         document.querySelector('div.cards').appendChild(card);
 
-        let p2 = document.createElement('p');
-        p2.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-        card.appendChild(p2);
+        let founded = document.createElement('p');
+        founded.textContent = 'Year Founded: ' + towns[i].yearFounded;
+        card.appendChild(founded);
+        document.querySelector('div.cards').appendChild(card);
+
+        let population = document.createElement('p');
+        population.textContent = 'Population: ' + towns[i].currentPopulation;
+        card.appendChild(population);
+        document.querySelector('div.cards').appendChild(card);
+        
+        let rain = document.createElement('p');
+        rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
+        card.appendChild(rain);
         document.querySelector('div.cards').appendChild(card);
 
         let image = document.createElement('img');
-        image.setAttribute('src', prophets[i].imageurl);
+        image.setAttribute('src', "/lesson9a/images/" + towns[i].photo);
         card.appendChild(image);
         document.querySelector('div.cards').appendChild(card);
 

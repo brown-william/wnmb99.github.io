@@ -6,6 +6,7 @@ body {
     line-height: 1.5rem;
     height: 100%;
     border: 1px solid #00A8E8;
+    text-align: center;
 }
 
 
@@ -13,7 +14,7 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: 'Libre Baskerville', serif;
     padding: 16px;
-    text-align: center;
+    
     
 }
 
@@ -76,5 +77,53 @@ nav ul li.active a{
 
 }
 nav ul li a:hover {
-    background-color: rgba(42, 45, 238, 0.4);
+    background-color: rgba(45, 48, 243, 0.4);
+}
+
+
+
+.cards {
+    display: grid;
+   grid-template-columns: 1fr;
+   
+   padding: 5px;
+   
+}
+h1 {
+    
+    color: white;
+}
+h2 {
+    
+    color: white;
+    
+}
+h3 {
+    color: white;
+   
+}
+p {
+   
+    color: white;
+}
+
+
+img.cards {
+    width: 60%;
+    margin: 1em auto;
+    display: block;
+}
+
+main section {
+    display: block;
+    align-items: center;
+    background-color: rgb(21, 34, 51);
+    padding: 25px;
+    margin: 10px;
+    border: black 1px solid;
+}
+section img {
+    width: 70%;
+    height: auto;
+    margin: auto;
 }
