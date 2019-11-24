@@ -1,0 +1,5 @@
+var d = new Date;
+
+if (d.getDay() === 5) {
+    document.getElementById("banner").hidden = false;
+}
