@@ -37,7 +37,7 @@ fetch(apiURL)
         let fcst = forecastObject.list[i].dt_txt;
         if(fcst.includes('18:00:00'))  {
             let theDay = new Date(fcst);
-            let dayOption = { weekdate: 'short'}
+            let dayOption = {weekdate: 'short'};
             let weekdate = theDay.toLocaleDateString('en-US', dayOption);
             let labelL = 'day' + constant;
             document.getElementById(labelL).textContent = weekdate;
@@ -51,8 +51,35 @@ fetch(apiURL)
 
             let temperature = 'fTemp' + constant;
             document.getElementById(temperature).textContent = Math.round(forecastObject.list[i].main.temp);
-            constant = constant +1;
+            constant = constant + 1;
 
         }
     }
   });
+
+  const getURLf = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+  fetch(getURLf)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObjectf) {
+      const towns = jsonObjectf['towns'];
+  
+      for (let i = 0; i < towns.length; i++ ) {
+        if (towns[i].name == "Preston") {
+          
+        
+          let list = document.createElement('ul'); 
+  
+          
+          for (let j = 0; j < towns[i].events.length; j++) {
+            let item = document.createElement('li');
+            item.textContent = towns[i].events[j];
+            list.appendChild(item);
+          } 
+  
+          document.querySelector('div.events').appendChild(list); 
+        } 
+      } 
+    });

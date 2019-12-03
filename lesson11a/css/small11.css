@@ -145,6 +145,10 @@ div.events ul li {
     text-align: left;
 }
 
+.contact img {
+    padding-right: 25px;
+}
+
 .pic {
     order: 2;
     float: right;
