@@ -85,7 +85,24 @@ fetch(tempA)
           osch.appendChild(osched);
       }
       document.querySelector('div.tempA').appendChild(osch);
+      
+      let ssch = document.createElement('ul');
 
+      for(c=0; c<templess[i].sSchedule.length; c++) {
+          let ssched = document.createElement('li');
+          ssched.textContent = templess[i].sSchedule[c];
+          ssch.appendChild(ssched);
+      }
+      document.querySelector('div.tempA').appendChild(ssch);
+
+      let clos = document.createElement('ul');
+
+      for(g=0; g<templess[i].closure.length; g++) {
+          let closed = document.createElement('li');
+          closed.textContent = templess[i].closure[g];
+          clos.appendChild(closed);
+      }
+      document.querySelector('div.tempA').appendChild(clos);
 
 
      
