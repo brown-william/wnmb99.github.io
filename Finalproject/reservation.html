@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reservation Page for Final Assignment by Nate Brown for CIT 230 : Web Frontend Development, Brigham Young University Idaho">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn and Suites Homepage</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/smallFin.css" type="text/css">
+    <link rel="stylesheet" href="css/mediumFin.css" type="text/css">
+    <link rel="stylesheet" href="css/largeFin.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Solway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/temple logo.jpg" alt="logo">
+        <div>
+        <h1>Temple Inn and Suites</h1>
+        
+        </div>
+    </header>
+        <nav>
+        
+            <ul class="primNav">
+                <li><a href="#" onclick="menuToggle()">&#9776; Menu</a></li>
+                <li><a href="/Finalproject/homepage.html">Home</a></li>
+                <li class="active"><a href="/Finalproject/reservation.html">Reservation</a></li>
+                <li><a href="/Finalproject/temple.html">Temples</a></li>
+                <li><a href="/Finalproject/services.html">Services</a></li>
+                <li><a href="/Finalproject/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 class="reservH">Make a Reservation</h1>
+            <form method="GET" action="thanksT.html">
+              <fieldset>
+                  <legend>Personal Information</legend>
+                  <label class="top">Full Name*<input type="text" name="fname" required></label>
+                  <label class="top">Email <input type="email" name="email" placeholder="someone@yahoo.com"></label>
+                  <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                  <label class="top">State or Country<input type="text" name="state"></label>
+              </fieldset>
+              <fieldset>
+                  <legend>Room Information</legend>
+                  <label class="top">Location
+                    <select name="location">
+                        <option value="">Select &#9662</option>
+                        <option value="dallas">Dallas</option>
+                        <option value="tucson">Tuscon</option>
+                        <option value="heartford">Heartford</option>
+                        <option value="manti">Manti</option>
+                    </select>
+    
+                </label>
+                  <label class="top">Date of Stay<input type="date" name="date"></label>
+                  <label class="top">Number of Rooms* <input type="number" name="howmany" required></label>
+                  <label class="top">Type of Room <input list="room" id="roomtype" name="rooms">
+                      <datalist id="room">
+                          <option value="1 King Bed"></option>
+                          <option value="2 Queen Bed"></option>
+                          <option value="1 Queen Bed"></option>
+                          <option value="1 King Bed non-smoking"></option>
+                          <option value="1 Queen Bed non-smoking"></option>
+                      </datalist>
+                  </label>
+                 
+              </fieldset>
+              
+              <fieldset>
+                  <legend>Comments</legend>
+                  <label class="info">Special Accommodations/Comments <textarea name="comments" id="comments" 
+                      placeholder="Type your comments here..."></textarea></label>
+              </fieldset>
+              <input class="submitBtn" type="submit" name="submitButton" value="Make a Reservation">
+      
+          </form> 
+      
+          </main>
+      
+    
+   
+    <footer>
+       
+            &copy; | Nate Brown | Temple Suites | CIT 230 Final Project 
+              
+          
+</footer>
+<script src="Javascript/menuToggle.js"></script>
+
+
+</body>
+</html>

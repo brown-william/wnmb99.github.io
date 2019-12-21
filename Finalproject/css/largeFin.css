@@ -1,0 +1,31 @@
+@media only screen and (min-width: 65em) {
+    nav ul {
+        display: flex;
+        justify-content: space-around
+    }
+    .temp {
+        
+        display: grid;
+        grid-template-columns: 1 1 1;
+        width: auto;
+        height: auto;
+        margin: 5px;
+        justify-content: center;
+    }
+    .temp img {
+      
+        width: 40%;
+    }
+    main section {
+        display: block;
+        
+    }
+    .suites{
+        display: grid;
+        grid-template: 1 1 1;
+        justify-content: center;
+    }
+    .suitehead {
+        text-align: center;
+    }
+}

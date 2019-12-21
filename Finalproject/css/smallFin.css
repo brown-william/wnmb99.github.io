@@ -1,0 +1,176 @@
+
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header, footer {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    background-color: #8d9f87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #6f9283;
+    font-family: 'Solway', serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.primNav li:first-child {
+display: block;
+}
+.primNav li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    border-top:1px solid;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav ul li.active a{
+    background-color: #696d7d;
+    margin: 0 auto;
+
+}
+nav ul li a:hover {
+    background-color: #696d7d;
+}
+
+div.templeRes ul li {
+    font-size: 40px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+}
+div.templeRes ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: #6f9283;
+    border-radius: 10px;
+   
+}
+div.templeRes ul li a:hover {
+    background-color: #696d7d;
+    border-radius: 10px;
+}
+body {
+    background-color: #cdc6a5;
+}
+
+div.temp {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 20px;
+    text-align: center;
+   
+   padding: 5px;
+
+}
+form label.top,
+form label.info,
+#comments{
+    display: block;
+    padding: 1rem;
+    color: rgb(9, 126, 9);
+}
+form label.top input,
+form label.top select,
+form label.info input,
+#comments {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px grey;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form legend {
+    color: #209bc4;
+}
+
+
+
+#comments {
+    height: 10rem;
+}
+
+
+
+form label.top input:required:valid {
+    border: green solid 1px;
+}
+form input.submitBtn {
+    border: none;
+    background-color:  #15772e;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 20px;
+    width: 96%;
+    max-width: 20rem;
+}
+form fieldset {
+    padding: 20px;
+}
+#thanks {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+.reservH {
+    text-align: center;
+    font-size: 40px;
+}
+.thanksT {
+    text-align: center;
+    padding-bottom: 700px;
+}
+.conUs {
+    text-align: center;
+}
+.serve {
+    text-align: center;
+
+}
+.spec {
+    padding: 20px;
+}
+.amen {
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.recep {
+    
+    padding: 50px;
+
+    
+}
+.recep ul li {
+    font-size: 25px;
+}
+.suitehead {
+   display: flex;
+   text-align: center;
+}
