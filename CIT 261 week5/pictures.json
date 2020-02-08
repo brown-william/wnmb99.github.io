@@ -1,0 +1,62 @@
+{
+    "pictures": [{
+        "name": "First Overcast",
+        "location": "Idaho",
+        "classification": "good",
+        "photo": "overcast.jpg"
+
+    },
+    {
+        "name": "Second Overcast",
+        "location": "Idaho",
+        "classification": "Meh",
+        "photo": "overcast2.jpg"
+
+    },
+    {
+        "name": "First Rainbow",
+        "location": "Idaho",
+        "classification": "Double Rainbow!",
+        "photo": "rainbow.jpg"
+
+    },
+    {
+        "name": "Second Rainbow",
+        "location": "Idaho",
+        "classification": "beautiful",
+        "photo": "rainbow2.jpg"
+
+    },
+    {
+        "name": "Snowed In",
+        "location": "Idaho",
+        "classification": "Looks Cold",
+        "photo": "snowday.jpg"
+
+    },
+    {
+        "name": "Winter Wonderland",
+        "location": "Idaho",
+        "classification": "Looks Magical",
+        "photo": "snowfall.jpg"
+
+    },
+    {
+        "name": "Storm Front",
+        "location": "Idaho",
+        "classification": "Ominous",
+        "photo": "storms.jpg"
+
+    },
+    {
+        "name": "Lightning strike",
+        "location": "Idaho",
+        "classification": "Inspiring",
+        "photo": "storms2.jpg"
+
+    }
+
+]
+
+    
+}
