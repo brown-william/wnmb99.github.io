@@ -1,0 +1,194 @@
+body{
+    background: grey;
+}
+.box{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+    
+}
+
+.box:active{
+    background: red;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box1{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box1:hover{
+    background: orange;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box2{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box2:hover{
+    background: yellow;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box3{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box3:hover{
+    background: green;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box4{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box4:hover{
+    background: blue;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box5{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box5:hover{
+    background: purple;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box6{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box6:hover{
+    background: violet;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box7{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box7:hover{
+    background: pink;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box8{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box8:hover{
+    background: rosybrown;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+.box9{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background, border-radius,
+    transform;
+    transition-duration: .5s;
+    /*transition-delay: 2s;*/
+    /*transition-timing-function: ease-in;*/
+}
+
+.box9:hover{
+    background: brown;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
