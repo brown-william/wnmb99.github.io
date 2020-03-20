@@ -1,0 +1,34 @@
+body {
+    background-color: indigo;
+    
+}
+
+
+#title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: cyan;
+}
+
+#bnt1, #bnt2, #bnt3{
+    margin-left: 800px;
+}
+#bnt2 {
+    display: none;
+    
+}
+#bnt3 {
+    display: none;
+}
+
+#div2 {
+    margin-top: 500px;
+    
+}
+
+img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}

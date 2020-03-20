@@ -1,0 +1,64 @@
+#example1 {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: exampler1;
+    animation-duration: 8s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes exampler1 {
+   
+        0% {background-color: white; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;} 
+        10%{background-color: red; left: 300px; top: 0px; border-radius: 50% 50% 50% 50%;}
+        20%{background-color: green;left: 300px; top: 300px; border-radius: 50% 50% 50% 50%;}
+        30%{background-color: blue; left: 300px; top: 600px; border-radius: 50% 50% 50% 50%;}
+        40%{background-color: yellow; left: 0px; top: 600px; border-radius: 50% 50% 50% 50%;}
+        50%{background-color: yellowgreen; left: 0px; top: 900px; border-radius: 50% 50% 50% 50%;}
+        60%{background-color: pink; left: 300px; top: 900px; border-radius: 50% 50% 50% 50%;}
+        70%{background-color: purple; left: 300px; top: 1200px; border-radius: 50% 50% 50% 50%;}
+        80%{background-color: green; left: 0px; top: 1200px; border-radius: 50% 50% 50% 50%;}
+        90%{background-color: rgb(30, 121, 173); left: 0px; top: 1500px; border-radius: 50% 50% 50% 50%;}
+        100%{background-color: rgb(80, 4, 4); left: 300px; top: 1500px; border-radius: 50% 50% 50% 50%;}
+}
+
+#example2 {
+   
+    
+    width: 300px;
+    height: 100px;
+   
+    background-color: black;
+    
+}
+#example3 {
+    width: 300px;
+    height: 100px;
+    
+    background-color: black;
+}
+#example4 {
+   
+    width: 300px;
+    height: 100px;
+    
+    background-color: black;
+}
+#example5 {
+   
+    width: 300px;
+    height: 100px;
+   
+    background-color: black;
+}
+#example6 {
+    
+    width: 300px;
+    height: 100px;
+   
+    background-color: black;
+}
