@@ -18,13 +18,5 @@ planLog.addEventListener("click", function(){
    
 });
 
-for (let i=0; i<localStorage.length; i++) {
-    const key = localStorage.key(i);
-    const value = localStorage.getItem(key);
-    log.innerHTML += `${key}: ${value}<br>`;
-    if(key.length > 10) {
-        breakIt.textContent = "Too many Entries detected, dumping storage";
-        localStorage.clear();
-        }
-};
+
 
