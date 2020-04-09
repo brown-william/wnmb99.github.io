@@ -2,7 +2,7 @@
     "pictures": [{
         "name": "First Overcast",
         "location": "Idaho",
-        "classification": "good",
+        "classification": "Good",
         "photo": "overcast.jpg"
 
     },

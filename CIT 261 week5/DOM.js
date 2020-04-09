@@ -5,7 +5,7 @@ const spanner = document.querySelector(".spanPlay")
 
 button1.addEventListener("click", function(){
 
-    const gameNames = ["Football", "BasketBall", "Hockey", "Soccer", "Badmitten", "Red Rover"];
+    const gameNames = ["Football", "Basketball", "Hockey", "Soccer", "Badmitten", "Red Rover"];
 
     spanner.textContent = gameNames[Math.floor(Math.random() * gameNames.length)];
     
