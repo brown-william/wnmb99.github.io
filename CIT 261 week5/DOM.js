@@ -41,7 +41,7 @@ cleanButton.addEventListener("click", function(){
 
 //Example 3
 const button3 = document.querySelector(".button3");
-const scenes = '/CIT 261 week5/pictures.json';
+const scenes = 'https://github.com/brown-william/wnmb99.github.io/blob/master/CIT%20261%20week5/pictures.json';
 
 button3.addEventListener("click",function(){
 fetch(scenes)
@@ -66,7 +66,7 @@ fetch(scenes)
         document.querySelector('div.magic').appendChild(card);
 
         let image = document.createElement('img');
-        image.setAttribute('src', "/CIT 261 week5/images/" + scenesA[i].photo);
+        image.setAttribute('src', "https://github.com/brown-william/wnmb99.github.io/tree/master/CIT%20261%20week5/images" + scenesA[i].photo);
         card.appendChild(image);
         document.querySelector('div.magic').appendChild(card);
 
