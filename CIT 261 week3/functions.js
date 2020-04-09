@@ -4,7 +4,7 @@ let first = ["a Master", "an Apprentice", "a Novice", "an Expert", "a Grandmaste
 let rand = first[Math.floor(Math.random() * first.length)];
 
 //list of students names
-let students = ["John ", "Jimmy ", "William ", "Isaiah ", "Thomas "];
+let students = ["John ", "Jimmy ", "William ", "Isaia ", "Thomas "];
 
 //variable that randomizes the array value of "students"
 let randS = students[Math.floor(Math.random() * students.length)];
