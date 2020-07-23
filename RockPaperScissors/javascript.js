@@ -1,6 +1,9 @@
 const game = () => {
+    //initial score variables
     let pScore = 0;
     let cScore = 0;
+
+    //begins the game by fading the intro out and the game in
     const startGame = () => {
         const playBtn = document.querySelector(".intro button");
         const introScreen = document.querySelector(".intro");
@@ -11,7 +14,7 @@ const game = () => {
             match.classList.add("fadeIn");
         });
     };
-
+    //establishes varaibles that link to elements in the html for displaying the game
     const playMatch = () => {
         const options = document.querySelectorAll(".options button");
         const playerHand = document.querySelector(".player-hand");
@@ -29,15 +32,17 @@ const game = () => {
 
 
 
-
+        //computer selections
         const computerOptions = ['rock', 'paper', 'scissors'];
 
+        //loops through the array above and selects the computers option randomly
         options.forEach(option=>{
             option.addEventListener("click", function() {
 
                 const computerNumber = Math.floor(Math.random() * 3);
                 const computerChoice = computerOptions[computerNumber];
 
+                //controls animation time
                 setTimeout(() => {
                     compareHands(this.textContent, computerChoice);
 
@@ -60,7 +65,7 @@ const game = () => {
     };
 
 
-
+    //how the winner of each match is decided
     const compareHands = (playerChoice, computerChoice) => {
             const winner = document.querySelector('.winner');
             if(playerChoice === computerChoice) {
